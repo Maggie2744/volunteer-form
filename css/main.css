@@ -15,9 +15,17 @@ footer {
 .btn {
   color: #fff;
   background-color: #6e8c62;
-  border: none;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 span {
   color: #6e8c62;
+}
+
+hr {
+  margin-left: .5em;
+  margin-right: .5em;
+  color: #70ad55;
+  border-width: 1px;
 }
