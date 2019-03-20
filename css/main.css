@@ -29,3 +29,7 @@ hr {
   color: #70ad55;
   border-width: 1px;
 }
+
+fieldset {
+  border: 0;
+}
