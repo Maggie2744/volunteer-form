@@ -16,30 +16,30 @@
 
     <div>
 
-      <div class="header island">
+      <header class="header gutter-1-2 pad-t pad-b">
         <h1 class="bold">Apply to be a tree planter</h1>
         <p class="mega push-none">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-      </div>
+      </header>
 
       <form>
 
-        <div class="grid island">
+        <div class="grid gutter-1-2 pad-t pad-b">
           <h2 class="giga bold unit xs-1 s-1 m-1 l-1 xl-1">Personal details</h2>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="name">Full name</label>
             <input type="text" id="name" required>
-            <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            <p class="italic nano">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="nickname">What should we call you?</label>
             <input type="text" id="nickname" required>
-            <p>What all your friends call you, e.g. “Liz”.</p>
+            <p class="italic nano">What all your friends call you, e.g. “Liz”.</p>
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-b">
             <label for="birthdate">Date of birth</label>
             <input type="number" id="birthdate" placeholder="yyyy-mm-dd" required>
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-b">
             <label for="shirt-size">T-shirt size</label>
             <select id="shirt-size">
               <option>Select a t-shirt size</option>
@@ -55,7 +55,7 @@
               <option>Straight-cut: XL</option>
             </select>
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-b">
             <label for="email">Email</label>
             <input type="text" id="email" required>
           </div>
@@ -65,19 +65,19 @@
           </div>
         </div>
 
-        <div class="grid island">
+        <div class="grid gutter-1-2 pad-t pad-b">
           <h2 class="giga bold unit xs-1 s-1 m-1 l-1 xl-1">Address</h2>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-b">
             <label for="street-address">Street address</label>
             <input type="text" id="street-address">
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-b">
             <label for="city">City</label>
             <input type="text" id="city">
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-b">
             <label for="province">Province</label>
-            <select id="province" required>
+            <select id="province">
               <option>Select a province</option>
               <option>Alberta</option>
               <option>British Columbia</option>
@@ -94,16 +94,16 @@
               <option>Yukon</option>
             </select>
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-b">
             <label for="postal-code">Postal code</label>
             <input type="text" id="postal-code">
           </div>
         </div>
 
-        <div class="grid island">
+        <div class="grid gutter-1-2 pad-t pad-b">
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <h2 class="giga bold">What activities are you interested in helping with?</h2>
-            <div class="grid">
+            <div class="grid pad-b">
               <input class="unit xs-1" type="checkbox">
               <label class="unit xs-1">Digging holes</label>
               <input class="unit xs-1" type="checkbox">
@@ -124,7 +124,7 @@
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <h2 class="giga bold">Do you have any experience with the following?</h2>
-            <div class="grid">
+            <div class="grid pad-b">
               <input class="unit xs-1" type="checkbox">
               <label class="unit xs-1">Shovels</label>
               <input class="unit xs-1" type="checkbox">
@@ -149,7 +149,7 @@
           </div>
         </div>
 
-        <fieldset class="grid island">
+        <fieldset class="grid gutter-1-2 pad-t pad-b">
           <div class="unit xs-1 s-1 m-1 l-1 xl-1">
             <h2 class="giga bold">Do you have a valid driver's license?</h2>
             <input type="radio" id="yes">
@@ -159,28 +159,28 @@
           </div>
           <div class="unit xs-1 s-1 m-1 l-1 xl-1">
             <h2 class="giga bold">Do you have a pick-up truck you'd be willing to use?</h2>
-            <input type="radio" id="yes">
+            <input type="radio">
             <label for="yes">Yes</label>
-            <input type="radio" id="no">
+            <input type="radio">
             <label for="no">No</label>
           </div>
           <div class="unit xs-1 s-1 m-1 l-1 xl-1">
             <h2 class="giga bold">Do you have up-to-date first-aid certification?</h2>
-            <input type="radio" id="yes">
+            <input type="radio">
             <label for="yes">Yes</label>
-            <input type="radio" id="no">
+            <input type="radio">
             <label for="no">No</label>
           </div>
         </fieldset>
 
-        <fieldset class="grid island">
+        <fieldset class="grid gutter-1-2 pad-t pad-b">
           <div class="unit xs-1 s-1 m-1 l-1 xl-1">
             <label for="comments" class="giga bold">Please let us know any comments or questions you may have.<span class="italic">(optional)</span></label>
             <textarea id="comments"></textarea>
           </div>
         </fieldset>
 
-        <fieldset class="grid island">
+        <fieldset class="grid gutter-1-2 pad-t pad-b">
           <div class="unit xs-1 s-1 m-1 l-1 xl-1">
             <button class="btn" type="submit">Apply</button>
           </div>
@@ -188,9 +188,9 @@
 
       </form>
 
-      <div class="footer">
+      <footer>
         <p class="push-0">© Tree Hugger International Organization</p>
-      </div>
+      </footer>
 
     </div>
 

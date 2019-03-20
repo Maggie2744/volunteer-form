@@ -2,12 +2,12 @@ html {
   font-family: "Noto Serif", serif;
 }
 
-.header {
+header {
   color: #fff;
   background-color: #70ad55;
 }
 
-.footer {
+footer {
   color: #fff;
   background-color: #70ad55;
 }
@@ -16,4 +16,8 @@ html {
   color: #fff;
   background-color: #6e8c62;
   border: none;
+}
+
+span {
+  color: #6e8c62;
 }
