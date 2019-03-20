@@ -17,6 +17,7 @@ footer {
   background-color: #6e8c62;
   padding-left: 2em;
   padding-right: 2em;
+  border-color: #6e8c62;
 }
 
 span {
@@ -26,7 +27,7 @@ span {
 hr {
   margin-left: .5em;
   margin-right: .5em;
-  color: #70ad55;
+  border-color: #70ad55;
   border-width: 1px;
 }
 
